@@ -3,8 +3,15 @@
 	"extends": [
 		"config:best-practices"
 	],
-	"constraintsFiltering": "strict",
-	"constraints": {
-		"go": "1.24.0"
-	}
+	"packageRules": [
+		{
+			"matchDatasources": [
+				"go"
+			],
+			"constraintsFiltering": "strict",
+			"constraints": {
+				"go": "1.24.0"
+			}
+		}
+	]
 }
