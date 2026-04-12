@@ -5,6 +5,7 @@
 	],
 	"packageRules": [
 		{
+			"description": "Ensure source compatibility with Go version used by this project",
 			"matchDatasources": [
 				"go"
 			],
