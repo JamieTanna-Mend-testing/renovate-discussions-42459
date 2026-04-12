@@ -1,0 +1,10 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": [
+		"config:best-practices"
+	],
+	"constraintsFiltering": "strict",
+	"constraints": {
+		"go": "1.24.0"
+	}
+}
