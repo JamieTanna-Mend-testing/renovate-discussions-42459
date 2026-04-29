@@ -3,6 +3,7 @@ package main
 import (
 	"fmt"
 
+	_ "github.com/onsi/ginkgo"
 	"golang.org/x/mod/semver"
 )
 
