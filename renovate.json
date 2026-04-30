@@ -3,5 +3,13 @@
 	"extends": [
 		"config:best-practices"
 	],
-	"packageRules": []
+	"packageRules": [
+		{
+			"description": "Ensure source compatibility with Go version used by this project",
+			"matchManagers": [
+				"gomod"
+			],
+			"constraintsFiltering": "strict"
+		}
+	]
 }
